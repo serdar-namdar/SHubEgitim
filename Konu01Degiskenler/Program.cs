@@ -1,8 +1,4 @@
-﻿using System;
-using System.Diagnostics.Metrics;
-using System.Net.WebSockets;
-
-namespace Konu01Degiskenler
+﻿namespace Konu01Degiskenler
 {
     internal class Program // Sınıf
     {

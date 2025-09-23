@@ -9,10 +9,11 @@
             Console.WriteLine("1-For Döngüsü"); // i değişkenini oluştur ve 0 değerini ata; i 5 den küçük olduğu sürece dön , her döngü sonunda i değerini 1 artır
             for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine("i değişkeninin değri: {0}", i);
+                Console.WriteLine("i değişkeninin değri: {0}", i );
             }
             Console.WriteLine();
 
+           /*
             Console.WriteLine("2-While Döngüsü");
             int j = 0; // dışarıda bir j değişkeni tanımlıyoruz ve 0 değerini ata
             while (j < 5) // j 5 den küçük olduğu sürece dön
@@ -65,6 +66,7 @@
                     }
                 }   
             }
+           */
         }
 
     }
