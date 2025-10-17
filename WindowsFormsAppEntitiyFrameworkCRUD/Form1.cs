@@ -1,7 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsAppAdoNetCRUD
+namespace WindowsFormsAppEntitiyFrameworkCRUD
 {
     public partial class Form1 : Form
     {
@@ -9,13 +16,14 @@ namespace WindowsFormsAppAdoNetCRUD
         {
             InitializeComponent();
         }
+
         private void btnGiris_Click(object sender, EventArgs e)
         {
-            if (txtKullaniciAdi.Text=="admin" && txtSifre.Text=="123")
+            if (txtKullaniciAdi.Text == "admin" && txtSifre.Text == "123")
             {
                 groupBox1.Visible = false;
                 menuStrip1.Visible = true;
-               
+
             }
             else
             {

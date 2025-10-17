@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WindowsFormsAppEntitiyFrameworkCRUD
+namespace WindowsFormsAppAdoNetCRUD
 {
     public class User
     {

@@ -72,7 +72,7 @@ namespace WindowsFormsAppAdoNetCRUD
             btnSil.Enabled = true;  
         }
 
-        private void txtGuncelle_Click(object sender, EventArgs e)
+        private void btnGuncelle_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(txtKategoriAdi.Text))
             {
@@ -99,5 +99,20 @@ namespace WindowsFormsAppAdoNetCRUD
                 MessageBox.Show("Kayıt Başarısız");
             }
         }
-    }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            var sonuc = dAL.Delete((int)dgvKategoriler.CurrentRow.Cells[0].Value);
+            if (sonuc > 0)
+            {
+                Yukle();
+                // dgvKategoriler.DataSource = dAL.GetDataTable("select * from categories"); // yeeni ekleneeni bununla kaaydediyorsun
+                MessageBox.Show("Kayıt Silme Başarılı");
+            }
+            else
+            {
+                MessageBox.Show("Kayıt Silme Başarısız");
+            }
+        }
+    } 
 }

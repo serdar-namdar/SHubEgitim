@@ -41,9 +41,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDPrensipleri", "SOLIDPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsEgitimi", "WindowsFormsEgitimi\WindowsFormsEgitimi.csproj", "{99824BED-02DC-4AC6-B009-DDE3E6DBA60E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppEntityFrameworkCRUD", "WindowsFormsAppEntityFrameworkCRUD\WindowsFormsAppEntityFrameworkCRUD.csproj", "{AAF9A2BA-4D92-4EA8-B7A2-FAD550E60346}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppAdoNetCRUD", "WindowsFormsAppAdoNetCRUD\WindowsFormsAppAdoNetCRUD.csproj", "{DFBFDDBA-4226-4E54-913B-5E588D828394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppEntitiyFrameworkCRUD", "WindowsFormsAppEntitiyFrameworkCRUD\WindowsFormsAppEntitiyFrameworkCRUD.csproj", "{26729FF1-BEE6-4A30-A415-76BB0DDF2550}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,14 +127,14 @@ Global
 		{99824BED-02DC-4AC6-B009-DDE3E6DBA60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99824BED-02DC-4AC6-B009-DDE3E6DBA60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99824BED-02DC-4AC6-B009-DDE3E6DBA60E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAF9A2BA-4D92-4EA8-B7A2-FAD550E60346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAF9A2BA-4D92-4EA8-B7A2-FAD550E60346}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAF9A2BA-4D92-4EA8-B7A2-FAD550E60346}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAF9A2BA-4D92-4EA8-B7A2-FAD550E60346}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DFBFDDBA-4226-4E54-913B-5E588D828394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DFBFDDBA-4226-4E54-913B-5E588D828394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFBFDDBA-4226-4E54-913B-5E588D828394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFBFDDBA-4226-4E54-913B-5E588D828394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26729FF1-BEE6-4A30-A415-76BB0DDF2550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26729FF1-BEE6-4A30-A415-76BB0DDF2550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26729FF1-BEE6-4A30-A415-76BB0DDF2550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26729FF1-BEE6-4A30-A415-76BB0DDF2550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
